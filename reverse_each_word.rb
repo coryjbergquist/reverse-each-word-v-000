@@ -6,5 +6,6 @@ new_array.join" "
 end
 
 def new_reverse_each_word(string)
-  
+  array = string.split" "
+  array.collect.reverse
 end
