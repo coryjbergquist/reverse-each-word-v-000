@@ -5,7 +5,7 @@ array.each {|x| new_array << x.reverse}
 new_array.join" "
 end
 
-def reverse_each_word(string)
+def new_reverse_each_word(string)
   array = string.split" "
   array.collect
 end
